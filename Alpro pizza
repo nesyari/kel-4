@@ -1,0 +1,82 @@
+#pilih toppingpizza
+#muncul harga toppingpizza (untuk semua topping harga pizza = + 43.637)
+
+#pilih crust pizza 
+
+#untuk "stuffedcrust cheese" atau "crown crust" harga pizza + 11.811
+#menginput ukuran pizza "personal" atau "reguler" atau "large"
+#untuk personal maka harga pizza + 0
+#menginput apakah mau ditambah dengan cheese? Y/N
+#jika ya maka harga + 13.636
+#jika tidak maka langsung muncul total yang harus dibayar
+#untuk regular harga pizza + 65.455
+#menginput apakah mau ditambah dengan cheese? Y/N
+#jika ya maka harga + 16.634
+#jika tidak maka langsung muncul total yang harus dibayar
+#untuk large harga pizza + 104.545
+#menginput apakah mau ditambah dengan cheese? Y/N
+#jika ya maka harga + 19.091
+#jika tidak maka langsung muncul total yang harus dibayar
+
+#untuk stuffedcrust sausage harga pizza + 9091
+#menginput ukuran pizza "personal" atau "reguler" atau "large"
+#untuk personal maka harga pizza + 0
+#menginput apakah mau ditambah dengan cheese? Y/N
+#jika ya maka harga + 13.636
+#jika tidak maka langsung muncul total yang harus dibayar
+#untuk regular harga pizza + 57.273
+#menginput apakah mau ditambah dengan cheese? Y/N
+#jika ya maka harga + 16.634
+#jika tidak maka langsung muncul total yang harus dibayar
+#untuk large harga pizza + 89.091
+#menginput apakah mau ditambah dengan cheese? Y/N
+#jika ya maka harga + 19.091
+#jika tidak maka langsung muncul total yang harus dibayar
+
+#untuk cheesy bites harga pizza+ 13.636
+#untuk personal maka harga pizza + 0
+#menginput apakah mau ditambah dengan cheese? Y/N
+#jika ya maka harga + 13.636
+#jika tidak maka langsung muncul total yang harus dibayar
+#untuk regular harga pizza + 57.273
+#menginput apakah mau ditambah dengan cheese? Y/N
+#jika ya maka harga + 16.634
+#jika tidak maka langsung muncul total yang harus dibayar
+#untuk large harga pizza + 89.091
+#menginput apakah mau ditambah dengan cheese? Y/N
+#jika ya maka harga + 19.091
+#jika tidak maka langsung muncul total yang harus dibayar
+
+#untuk pan harga pizza + 0
+#untuk personal maka harga pizza + 0
+#menginput apakah mau ditambah dengan cheese? Y/N
+#jika ya maka harga + 13.636
+#jika tidak maka langsung muncul total yang harus dibayar
+#untuk regular harga pizza + 57.273
+#menginput apakah mau ditambah dengan cheese? Y/N
+#jika ya maka harga + 16.634
+#jika tidak maka langsung muncul total yang harus dibayar
+#untuk large harga pizza + 89.091
+#menginput apakah mau ditambah dengan cheese? Y/N
+#jika ya maka harga + 19.091
+#jika tidak maka langsung muncul total yang harus dibayar
+
+hargapizza = 0
+
+toppingpizza = input("masukkan topping yang diinginkan: ")
+if (toppingpizza == "frankfurter BBQ" or "meatmonsta" or "supersupreme" or "supersupremechicken"):
+    hargapizza += 43637
+    print("harga 43.637")
+
+    crustpizza = input("masukkan crust yang diinginkan: ")
+    if (crustpizza == "stuffedcrust cheese" or "crown crust"):
+        hargapizza += 11818
+        print("harga 55.455")
+
+        ukuran = input("masukkan ukuran yang diinginkan: ")
+        if (ukuran == "personal"):
+            hargapizza += 0
+            print("harga 43.637")
+
+            tambahancheese = input("apakah mau menambah cheese? Y/N: ")
+            if (tambahancheese == "Y"):
