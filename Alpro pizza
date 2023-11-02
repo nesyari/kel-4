@@ -80,3 +80,85 @@ if (toppingpizza == "frankfurter BBQ" or "meatmonsta" or "supersupreme" or "supe
 
             tambahancheese = input("apakah mau menambah cheese? Y/N: ")
             if (tambahancheese == "Y"):
+                hargapizza += 13636
+                print("harga 13.636")
+            else :
+                hargapizza += 0
+                ("oke lanjut")
+
+        elif (ukuran == "regular"):
+            hargapizza += 65455
+            print("harga pizza 100.910")
+
+            tambahancheese = input("apakah mau menambah cheese? Y/N: ")
+            if (tambahancheese == "Y"):
+                hargapizza += 16634
+                print("harga 16.634")
+            else:
+                hargapizza += 0
+                print("oke ,lanjut")
+  
+
+        elif (ukuran == "large"):
+            hargapizza += 104545
+            print("harga pizza 132.728")
+
+            tambahancheese = input("apakah mau menambah cheese? Y/N: ")
+            if (tambahancheese == "Y"): 
+                hargapizza += 19091
+                print("harga 19.091")
+            else:
+                hargapizza += 0
+                print("oke ,lanjut")
+  
+
+    elif (crustpizza == "stuffedcrust sausage"):
+        hargapizza += 9091
+        print("harga 52.728")
+
+        ukuran = input("masukkan ukuran yang diinginkan: ")
+        if (ukuran == "personal"):
+            hargapizza += 0
+            print("harga 43.637")
+
+            tambahancheese = input("apakah mau menambah cheese? Y/N: ")
+            if (tambahancheese == "Y"): 
+                hargapizza += 13636
+                print("harga 13.636")
+            else:
+                hargapizza += 0
+                print("oke, lanjut")
+  
+
+        elif (ukuran == "regular"):
+            hargapizza += 57273
+            print("harga pizza 100.910")
+
+            tambahancheese = input("apakah mau menambah cheese? Y/N: ")
+            if (tambahancheese == "Y"):
+                hargapizza += 16634
+                print("harga 16.634")
+            else:
+                hargapizza += 0
+                print("oke ,lanjut")
+  
+
+        elif (ukuran == "large"):
+            hargapizza += 89091
+            print("harga pizza 132.728")
+
+            tambahancheese = input("apakah mau menambah cheese? Y/N: ")
+            if (tambahancheese == "Y"): 
+                hargapizza += 19091
+                print("harga 19.091")
+            else:
+                hargapizza += 0
+                print("oke ,lanjut")
+  
+
+    elif (crustpizza == "cheesy bites"):
+        hargapizza += 13636
+        print("harga 57.273") 
+
+        ukuran = input("masukkan ukuran yang diinginkan: ")
+        if (ukuran == "personal"):
