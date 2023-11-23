@@ -59,3 +59,39 @@ while not at_goal():
         jump()
     else:
         move()
+
+#hurdle 3
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+while not at_goal() :
+    while not wall_in_front():
+        move()
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+
+#maze
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+while not at_goal() :
+    if wall_on_right() and front_is_clear() : 
+        move()
+    elif right_is_clear() :
+        turn_right()
+        move()
+    elif wall_in_front() and right_is_clear() :
+        turn_right()
+    elif front_is_clear() :
+        move()
+    else :
+        turn_left()
